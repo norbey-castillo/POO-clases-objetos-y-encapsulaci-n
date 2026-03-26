@@ -15,10 +15,27 @@ public class Main {
 		
 	}
 	
+	public static void ejercicio2() {
+		Rectangulo r1 = new Rectangulo(10,8);
+		Rectangulo r2 = new Rectangulo(8,9);
+		
+		r1.area();
+		r1.perimetro();
+		
+		r2.area();
+		r2.perimetro();
+		
+		if(r1.area() > r2.area()) {
+			System.out.println("El area de r1 es mas grande. ");
+		}else {
+			System.out.println("El area de r2 es mas grande. ");
+			}
+		}
+	
 
 	public static void main(String[] args) {
 		
-		ejercicio1();
+		ejercicio2();
 
 	}
 
