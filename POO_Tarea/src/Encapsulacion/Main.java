@@ -30,12 +30,22 @@ public class Main {
 		}else {
 			System.out.println("El area de r2 es mas grande. ");
 			}
-		}
+	}
 	
+	public static void ejercicio3() {
+		Producto pd1 = new Producto("pd01","Lavadora",3500);
+		Producto pd2 = new Producto("pd02","Secadora",2800);
+		
+		pd1.aplicarDescuento(20);
+		pd2.aplicarDescuento(15);
+		
+		pd1.mostrar();
+		pd2.mostrar();
+	}
 
 	public static void main(String[] args) {
 		
-		ejercicio2();
+		ejercicio3();
 
 	}
 
