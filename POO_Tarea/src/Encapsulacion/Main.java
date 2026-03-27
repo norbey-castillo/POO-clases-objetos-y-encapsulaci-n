@@ -52,10 +52,18 @@ public class Main {
 		c1.mostrar();
 		
 	}
+	
+	public static void ejercicio5() {
+		Libro l1 = new Libro("El nombre del viento","Patrick Rothfuss",250);
+		
+		l1.esLargo();
+		l1.mostrar();
+		
+	}
 
 	public static void main(String[] args) {
 		
-		ejercicio4();
+		ejercicio5();
 
 	}
 
