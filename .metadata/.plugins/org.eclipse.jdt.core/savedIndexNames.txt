@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+C:\Users\Norbey\Desktop\Cosas de la U\Programacion I\bloque 2\semana 7\repositorio\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
