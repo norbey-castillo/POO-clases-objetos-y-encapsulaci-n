@@ -50,6 +50,7 @@ public class Main {
 		c1.retirar(300);
 		
 		c1.mostrar();
+		
 	}
 
 	public static void main(String[] args) {
