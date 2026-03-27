@@ -69,10 +69,20 @@ public class Main {
 		Calculadora.multiplicar(5, 3);
 		Calculadora.dividir(6, 0);
 	}
+	
+	public static void ejercicio7() {
+		Fecha f1 = new Fecha(5,6,2026);
+		Fecha f2 = new Fecha(6,5,2026);
+		Fecha f3 = new Fecha(33,13,2026);
+		
+		System.out.println("La fecha es valida: "+ f1.esValida());
+		System.out.println("La fecha es valida: "+ f2.esValida());
+		System.out.println("La fecha es valida: "+ f3.esValida());
+	}
 
 	public static void main(String[] args) {
 		
-		ejercicio6();
+		ejercicio7();
 
 	}
 
