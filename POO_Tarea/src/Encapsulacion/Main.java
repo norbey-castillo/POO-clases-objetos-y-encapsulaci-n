@@ -54,16 +54,25 @@ public class Main {
 	}
 	
 	public static void ejercicio5() {
-		Libro l1 = new Libro("El nombre del viento","Patrick Rothfuss",250);
+		Libro l1 = new Libro("El nombre del viento","Patrick Rothfuss",880);
 		
 		l1.esLargo();
 		l1.mostrar();
 		
 	}
+	
+	public static void ejercicio6() {
+
+		
+		Calculadora.sumar(5, 5);
+		Calculadora.restar(5, 3);
+		Calculadora.multiplicar(5, 3);
+		Calculadora.dividir(6, 0);
+	}
 
 	public static void main(String[] args) {
 		
-		ejercicio5();
+		ejercicio6();
 
 	}
 
