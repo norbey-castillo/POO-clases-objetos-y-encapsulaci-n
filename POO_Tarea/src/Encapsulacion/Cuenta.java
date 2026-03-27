@@ -38,6 +38,7 @@ public class Cuenta {
 		
 		System.out.println("Titular: "+ titular);
 		System.out.println("En caja: "+ caja);
+		
 	}
 	
 }
