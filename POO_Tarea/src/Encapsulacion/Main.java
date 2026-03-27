@@ -42,10 +42,19 @@ public class Main {
 		pd1.mostrar();
 		pd2.mostrar();
 	}
+	
+	public static void ejercicio4() {
+		Cuenta c1 = new Cuenta("Norbey", 1500);
+		
+		c1.depositar(500);
+		c1.retirar(300);
+		
+		c1.mostrar();
+	}
 
 	public static void main(String[] args) {
 		
-		ejercicio3();
+		ejercicio4();
 
 	}
 
