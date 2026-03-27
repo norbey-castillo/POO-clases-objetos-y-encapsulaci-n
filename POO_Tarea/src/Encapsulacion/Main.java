@@ -82,7 +82,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		ejercicio7();
+		ejercicio1(); 
 
 	}
 
